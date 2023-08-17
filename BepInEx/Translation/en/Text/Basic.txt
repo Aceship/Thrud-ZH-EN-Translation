@@ -1,0 +1,113 @@
+斯露德=Thrud
+共鸣=Resonance
+战舰=Warship
+联行=Union
+任务=Task
+返回=Back
+前往舷廊=Home
+商城=Shop
+采购=Purchase
+仓库=Warehouse
+
+见习=Trainee
+活动=Activity
+
+--Task 
+每日=daily
+每周=weekly  
+
+当前有多个已完成任务=Claim All 
+--Shop Text
+
+sr:"本周剩余：(?<num_i>[0-9/]+)"="${num_i} Left this Week"
+sr:"本月剩余：(?<num_i>[0-9/]+)"="${num_i} Left this Month"
+sr:"意识碎片·(?<name>.+)"="Fragments - ${name}"
+
+
+-- notification
+sr:"通关(?<name>.+)后开启"="Unlocked after clearing ${name}"
+提示=Notice
+
+-- Stages
+推荐编队=Rec.Formation
+敌方详情=Details
+安全时间=Time Limit
+通关奖励=Rewards
+消耗:=Use : 
+作战准备=Combat preparation
+sr:"当前队伍的平均共鸣峰值为(?<num_i>[0-9/]+)，小于推荐值，是否继续？"="The current team's average resonance peak is ${num_i}, which is less than the recommended value, should we continue?"
+sr:"共鸣峰值：(?<num_i>[0-9/]+)"="Resonance Value : ${num_i}"
+
+-- Challenge
+目标：=Goal:
+胜利通关=Win Stage
+sr:"通关时长不超过<color\=#78C1A3>(?<num_i>[0-9/]+)</color>秒"="Clear Within <color\=#78C1A3>${num_i}</color> seconds"
+sr:"斯露德血量不低于<color\=#78C1A3>(?<num_i>[0-9/]+)</color>%"="Thrud's HP ><color\=#78C1A3>${num_i}</color>%"
+全部斯露德存活=All Thrud survives
+倒计时结束前抵达终点=Reach finish before\nthe countdown ends
+首通=1st time
+星级=Clear
+
+-- Battle
+战斗开始=Begin Battle
+元素过载=Overload
+负载重置中=Reloading . . .
+重新开启=Restart
+继续战斗=Resume
+退出战斗=Withdraw
+通关用时=Time
+
+索敌=Target Enemy
+
+-- Story
+
+记录=Log
+自动=Auto
+跳过=Skip
+取消=Cancel
+确定=Confirm
+
+-- Inspection
+脉流巡检=pulse-flow inspection
+sr:"剩余时间：(?<num1_i>[0-9/]+)天(?<num2_i>[0-9/]+)小时"="Time remaining : ${num1_i} days and ${num2_i} hours"
+sr:"巡检剩余时间：(?<num1_i>[0-9/]+)天 (?<num2_i>[0-9/:]+)"="Time left: ${num1_i} days ${num2_i}"
+sr:"(?<num_i>[0-9:]+)后解锁"="Unlock in ${num_i}"
+sr:"(?<num_i>[0-9]+)天后解锁"="Unlock in ${num_i} days"
+暂未解锁=Not unlocked yet
+
+-- Option
+自定义=Custom
+高=High
+中=Med
+低=Low
+开启=On
+关闭=Off
+恢复默认=Restore Default
+
+显示=Display
+声音=Audio
+操作设置=Gameplay
+按键设置=Keybind
+账号=Username
+
+显示设置=Display Settings
+分辨率设置=Resolution
+窗口化=Windowed
+画面品质=Picture quality
+帧率=Frame rate
+辉光等级=Glow Level
+抗锯齿=Anti Aliasing
+后期效果=Motion Blur
+
+主音量=All Volume
+音乐=Music
+音效=SFX
+语音=Voice
+后台播放声音=Background 
+
+剧情重复观看=Re-view Story
+攻击方式=Attack Style
+上弹方式=Reloading Style
+雷达地图=Radar Map
+手动=Manual
+自动开火模式=Auto
