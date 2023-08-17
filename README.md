@@ -18,6 +18,9 @@ Direct Link : https://github.com/bbepis/XUnity.AutoTranslator/releases/download/
 
 5. Download this repo and copy to `C:\Program Files\bilibili Game\Thrud\Games` (installation path)
 
+   ![image](https://github.com/Aceship/Thrud-ZH-EN-Translation/assets/5337323/a9cadd53-03f3-465f-a85f-4490b5abe6ed)
+
+
 ## Preview : 
 ![image](https://github.com/Aceship/Thrud-ZH-EN-Translation/assets/5337323/4b9e3e17-3f96-481a-9b9c-3a7986f7a57a)
 ![image](https://github.com/Aceship/Thrud-ZH-EN-Translation/assets/5337323/92f989cd-8d7a-4bf5-8d16-a9968392f65e)
