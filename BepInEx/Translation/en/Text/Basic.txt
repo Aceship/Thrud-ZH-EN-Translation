@@ -75,6 +75,17 @@ sr:"(?<num_i>[0-9:]+)后解锁"="Unlock in ${num_i}"
 sr:"(?<num_i>[0-9]+)天后解锁"="Unlock in ${num_i} days"
 暂未解锁=Not unlocked yet
 
+-- Battlefront
+sr:"第(?<num_i>[0-9]+)波敌人"="Enemy wave ${num_i}"
+sr:"[最高(?<num_i>[0-9]+)]"="Limit ${num_i}"
+sr:"本期历史最高：(?<num_i>[0-9]+)"="Highest Record : ${num_i}"
+[最高25000]=Limit 25000
+[无上限]=[No Limit]
+时间奖励=Time Bonus
+我方血量=Party HP
+歼敌奖励=Kill Bonus
+本次积分Max=Max Point Currently
+
 -- Option
 自定义=Custom
 高=High
