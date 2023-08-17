@@ -1,5 +1,5 @@
 # Thrud-ZH-EN-Translation
-Translation files for Thrud : Broken Heaven Chinese gacha game
+Basic translation files for Thrud : Broken Heaven Chinese gacha game
 
 ## How to install : 
 1. Download Bepinex bleeding edge for IL2CPP x64 unity (currently using build 672)
