@@ -24,6 +24,9 @@ Direct Link : https://github.com/bbepis/XUnity.AutoTranslator/releases/download/
 
    ![image](https://github.com/Aceship/Thrud-ZH-EN-Translation/assets/5337323/a9cadd53-03f3-465f-a85f-4490b5abe6ed)
 
+6. Change AutoTranslatorConfig `FromLanguage` to `zh` (and change EndPoint to DeepL if you want)
+   
+![image](https://github.com/Aceship/Thrud-ZH-EN-Translation/assets/5337323/f043f0f2-cc3c-4927-b3fc-a544149e654b)
 
 ## Extra Links :
 Bepinex Bleeding edge page : https://builds.bepinex.dev/projects/bepinex_be
