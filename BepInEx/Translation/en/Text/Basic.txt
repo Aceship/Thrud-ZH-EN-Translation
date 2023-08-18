@@ -12,6 +12,9 @@
 见习=Trainee
 活动=Activity
 
+-- Common
+已拥有：=Owned:
+
 --Task 
 每日=daily
 每周=weekly  

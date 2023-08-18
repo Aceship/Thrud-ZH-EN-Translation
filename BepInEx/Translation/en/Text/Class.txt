@@ -1,0 +1,19 @@
+职业=Profession
+
+当前斯露德职业=Thrud Profession
+
+符能学者=Rune Schoolar
+积蓄，打出元素过载反应。=Build up quickly and hit the elemental overload reaction.
+
+作战先锐=Combat Vanguard
+提供火力输出，是整个队伍伤害主要来源。=Provides fire output and is the main source of damage for the entire team.
+
+赋能专家=Support Specialist
+能够增强输出职业的输出能力。=It can enhance the output ability of output professions.
+
+医疗专员=Medical Specialist
+治疗友方斯露德，缓解队伍生存压力。=Heals friendly Thrudes, easing the pressure on the team's survival.
+
+--Weapon Type
+
+重装型=heavy duty
