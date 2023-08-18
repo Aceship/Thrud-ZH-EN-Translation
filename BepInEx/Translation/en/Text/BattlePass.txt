@@ -1,0 +1,54 @@
+
+天空战令=Sky Battle Pass
+经验值=Exp.
+
+青空之旅=Blue Sky\nJourney
+澄空之旅=Clear Sky\nJourney
+奖励=Rewards
+
+战令升级=Upgrade Battle Pass
+
+购买天空战令等级=Purchase Sky Battle Pass Level
+sr:"购买后升至(?<num_i>[0-9]+)级，可获得以下奖励"="Upgrade Level to ${num_i} and receive the following rewards."
+购买=Used
+
+sr:"残り(?<num_i>[0-9]+)(?<time>.+)"="${num_i} ${time} R."
+sr:"剩余时间(?<num1_i>[0-9]+)天(?<num2_i>[0-9]+)小时"="Remaining Time : ${num1_i} Days ${num2_i} Hours"
+sr:"剩余时间(?<num1_i>[0-9]+)天"="Remaining Time : ${num1_i} Days"
+sr:"剩余时间(?<num2_i>[0-9]+)小时"="Remaining Time : ${num2_i} Hours"
+
+购买等级=Buy Level
+全部领取=Claim all
+无可领取奖励 = No Available Rewards to Claim
+
+-- Buy Battle pass 
+大量培养素材=Large amount of training materials
+大量经验道具=Large amount of experience props
+自选武器=Weapon of choice
+大量源晶碎=Large amount of crushed source crystals
+
+-- Tasks 
+
+灵魂震鸣=Soul Resonance
+sr:"累计消耗(?<num_i>[0-9]+)点感知"="Use a total of ${num_i} perception"
+
+活力充盈=Vibrant Energy
+sr:"累计获得(?<num_i>[0-9]+)点活跃点数"="Acquire ${num_i} activity points"
+
+天天向上=Day by Day Progress
+sr:"累计完成(?<num_i>[0-9]+)个每日任务"="Complete a total of ${num_i} daily tasks"
+
+周周不息=Never-ending weekly progression
+sr:"累计击杀(?<num_i>[0-9]+)个怪物"="Defeat a total of ${num_i} monsters"
+
+胜利重响 = Echoes of Victory
+sr:"通关任意副本(?<num_i>[0-9]+)次"="Complete any dungeon ${num_i} times"
+
+贡献兑换 = Contribution Exchange
+sr:"累计获得(?<num_i>[0-9]+)点贡献点数"="Earned ${num_i} contribution points"
+
+日常见闻 = Daily Insights
+sr:"每日签到(?<num_i>[0-9]+)次"="Sign in ${num_i} time(s) daily"
+
+极奏达人 = Masterful Virtuoso
+sr:"累计释放极奏(?<num_i>[0-9]+)次"="Use Ultimate Skill a total of ${num_i} times"

@@ -6,6 +6,7 @@
 娜卡伊=Nakaj
 瓦希缇=Vashti
 安迪=Andy
+金百莉=Kimberly
 
 -- Confirmed on website
 法尼娅=Faria

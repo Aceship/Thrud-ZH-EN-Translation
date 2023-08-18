@@ -12,34 +12,70 @@
 见习=Trainee
 活动=Activity
 
+-- Update Data 
+sr:"当前需要更新<color\=#B26672>(?<name>.+)</color>内容，是否继续？"="Need to update <color\=#B26672>${name}</color> of data, do you want to continue?"
+
 -- Common
 已拥有：=Owned:
+取 消=Cancel
+继 续=Continue
+sr:"导师达到(?<num_i>[0-9]+)级解锁"="Unlock on Level ${num_i}"
+消耗：=Consume :
+当 前 感 知:=Current Perceptions :
+感 知 上 限:=Perception Limits :
+感知：=Perception:
+
+-- Time
+sr:"^(?<num_i>[0-9]+)小时"="${num_i} hours"
+sr:"^(?<num_i>[0-9]+)天"="${num_i} days"
+sr:"(?<days_i>[0-9]+)天(?<hours_i>[0-9]+)时"="${days_i}d ${hours_i}h"
+sr:"(?<year>[0-9]+)年(?<month>[0-9]+)月(?<day>[0-9]+)日 (?<hour>[0-9]+):(?<minute>[0-9]+)"="${year}-${month}-${day} ${hour}:${minute}"
+
+--Home
+首充=First Top-up
 
 --Task 
 每日=daily
 每周=weekly  
 
 当前有多个已完成任务=Claim All 
---Shop Text
 
+--Shop Text
 sr:"本周剩余：(?<num_i>[0-9/]+)"="${num_i} Left this Week"
 sr:"本月剩余：(?<num_i>[0-9/]+)"="${num_i} Left this Month"
 sr:"意识碎片·(?<name>.+)"="Fragments - ${name}"
 
-
 -- notification
 sr:"通关(?<name>.+)后开启"="Unlocked after clearing ${name}"
 提示=Notice
+获得奖励=Reward Received
 
 -- Stages
 推荐编队=Rec.Formation
 敌方详情=Details
 安全时间=Time Limit
 通关奖励=Rewards
-消耗:=Use : 
-作战准备=Combat preparation
+消耗:=Consume : 
+作战准备=Combat Preparation
 sr:"当前队伍的平均共鸣峰值为(?<num_i>[0-9/]+)，小于推荐值，是否继续？"="The current team's average resonance peak is ${num_i}, which is less than the recommended value, should we continue?"
-sr:"共鸣峰值：(?<num_i>[0-9/]+)"="Resonance Value : ${num_i}"
+sr:"共鸣峰值：(?<num_i>[0-9/]+)"="Resonance Peak : ${num_i}"
+共鸣峰值限制: =Resonance Peak Limits. 
+挑战=Challenge
+一般=Normal
+挑战任务=Objectives
+高威胁个体预警=High-Threat Individual Alert
+
+-- Auto Stage
+开始外派=Dispatch
+<color\=#D89C50>外派作战未开始</color>=<color\=#D89C50>Operation not started yet</color>
+<color\=#5FAF8B>外派作战已完成</color>=<color\=#5FAF8B>Combat Expedition Completed</color>
+永不进行二次确认=Disable Re-confirmation
+外派次数：=Total Expeditions : 
+倒计时：=Countdown : 
+领取奖励=Claim Rewards
+预计用时：=Time spent:
+外派=Expedition
+召回=Recall
 
 -- Challenge
 目标：=Goal:
@@ -47,9 +83,11 @@ sr:"共鸣峰值：(?<num_i>[0-9/]+)"="Resonance Value : ${num_i}"
 sr:"通关时长不超过<color\=#78C1A3>(?<num_i>[0-9/]+)</color>秒"="Clear Within <color\=#78C1A3>${num_i}</color> seconds"
 sr:"斯露德血量不低于<color\=#78C1A3>(?<num_i>[0-9/]+)</color>%"="Thrud's HP ><color\=#78C1A3>${num_i}</color>%"
 全部斯露德存活=All Thrud survives
-倒计时结束前抵达终点=Reach finish before\nthe countdown ends
 首通=1st time
 星级=Clear
+
+倒计时结束前抵达终点=Reach finish before\nthe countdown ends
+关闭四个祭坛，切断首领能量供给=Shut down the four altars\nCut off the boss energy supply.
 
 -- Battle
 战斗开始=Begin Battle
@@ -63,22 +101,38 @@ sr:"斯露德血量不低于<color\=#78C1A3>(?<num_i>[0-9/]+)</color>%"="Thrud's
 索敌=Target Enemy
 
 -- Story
-
 记录=Log
 自动=Auto
 跳过=Skip
 取消=Cancel
 确定=Confirm
 
--- Inspection
-脉流巡检=pulse-flow inspection
+-- Inspection / patrol
+脉流巡检 = Flow Patrol
 sr:"剩余时间：(?<num1_i>[0-9/]+)天(?<num2_i>[0-9/]+)小时"="Time remaining : ${num1_i} days and ${num2_i} hours"
 sr:"巡检剩余时间：(?<num1_i>[0-9/]+)天 (?<num2_i>[0-9/:]+)"="Time left: ${num1_i} days ${num2_i}"
 sr:"(?<num_i>[0-9:]+)后解锁"="Unlock in ${num_i}"
 sr:"(?<num_i>[0-9]+)天后解锁"="Unlock in ${num_i} days"
 暂未解锁=Not unlocked yet
+请通过前置关卡 = Clear prev. stage
+sr:"巡检剩余时间：(?<days_i>[0-9]+)天(?<hours_i>[0-9]+)小时"="Remaining Time: ${days_i}d ${hours_i}h"
+
+巡检队伍=Patrol Team
+巡检任务=Patrol\nMissions
+
+sr:"队伍ID：(?<team_id_i>[0-9]+)"="Team ID: ${team_id_i}"
+请匹配队友=Match Teammate
+离开小队=Leave Team
+
+sr:"巡检区域(?<area>[A-Z0-9]+)"="Inspection Area ${area}"
+sr:"巡检任务(?<start>[0-9]+)-(?<end>[0-9]+)"="Patrol Tasks ${start}-${end}"
+sr:"(?<player>.+) 带队通过该任务"="${player} led the team through the mission."
 
 -- Battlefront
+异空战线=AlterZone
+sr:"剩余时间：(?<days_i>[0-9]+)天"="Remaining Time: ${days_i}d"
+剩余时间: = Remaining Time:
+
 sr:"第(?<num_i>[0-9]+)波敌人"="Enemy wave ${num_i}"
 sr:"[最高(?<num_i>[0-9]+)]"="Limit ${num_i}"
 sr:"本期历史最高：(?<num_i>[0-9]+)"="Highest Record : ${num_i}"
@@ -88,6 +142,20 @@ sr:"本期历史最高：(?<num_i>[0-9]+)"="Highest Record : ${num_i}"
 我方血量=Party HP
 歼敌奖励=Kill Bonus
 本次积分Max=Max Point Currently
+
+--Labyrinth
+交错迷宫=Entwined Labyrinth
+
+--Void
+交界虚空=Unified Void
+
+--Rift
+裂隙封锁=Rift Lockdown
+
+-- Status
+我方增益=Group Boost
+sr:"雷元素攻击提升(?<percentage>[0-9]+)%"="Thunder Elemental Attacks increased by ${percentage}%"
+
 
 -- Option
 自定义=Custom
