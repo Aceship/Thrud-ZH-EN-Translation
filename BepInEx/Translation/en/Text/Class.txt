@@ -3,17 +3,45 @@
 当前斯露德职业=Thrud Profession
 
 符能学者=Rune Schoolar
-积蓄，打出元素过载反应。=Build up quickly and hit the elemental overload reaction.
+快速积蓄，打出元素过载反应。=Rapidly accumulate and trigger elemental overload reaction.
 
 作战先锐=Combat Vanguard
 提供火力输出，是整个队伍伤害主要来源。=Provides fire output and is the main source of damage for the entire team.
 
 赋能专家=Support Specialist
-能够增强输出职业的输出能力。=It can enhance the output ability of output professions.
+能够增强输出职业的输出能力。=Enhances the output capability of damage-dealing professions.
 
 医疗专员=Medical Specialist
-治疗友方斯露德，缓解队伍生存压力。=Heals friendly Thrudes, easing the pressure on the team's survival.
+治疗友方斯露德，缓解队伍生存压力。=Heals friendly Thruds, alleviating the team's survival pressure.
+
+--Elements
+元素=Elements
+当前斯露德元素=Current Element
+
+斯露德对敌方异生体造成风元素过载时，敌方异生体将进入【风缠】状态，持续时间10秒。\n进入风缠状态时，会向周围扩散，使附近的敌方也进入风缠状态。风缠状态的目标死亡时，会产生一次8.28%范围伤害（基于风元素最高攻击力的一定百分比）同时产生一个体力球为角色回复15%最大体力。\n=When Thrud inflicts Wind Elemental Overload on an enemy Ectoplasm, the enemy Ectoplasm enters the [Wind Entanglement] state for 10 sec. When entering the Wind Entanglement state, it spreads out to the surrounding area, causing nearby enemies to enter the Wind Entanglement state as well. When a target in the Wind Entanglement state dies, it deals a single 8.28% Ranged Damage (based on a certain percentage of the highest Wind Elemental Attack Power) and generates a Physical Power Orb that restores 15% of the character's Maximum Physical Power.\n
+风=Wind
+
+斯露德对敌方异生体造成冰元素过载时，敌方异生体将进入【冻结】状态，持续时间8秒。\n当敌方处于冻结状态时将无法行动或攻击。\n=When Thrud inflicts Ice Elemental Overload, the enemy will enter the [Freeze] state for 8 sec. and will not be able to act or attack while in the Freeze state.\n
+冰=Ice
+
+斯露德对敌方异生体造成火元素过载时，敌方异生体将进入【灼烧】状态，持续时间10秒。\n灼烧状态下每0.5秒造成队内所有火元素斯露德总攻击力3%的伤害。灼烧状态下可持续累计灼烧印记层数，最高累计10层，每层灼烧印记会提高20%的灼烧伤害。=When Thrud inflicts Fire Elemental Overload, the enemy enters [Scorch] state for 10 sec.\nScorch state deals 3% of Thrud's Fire Attack every 0.5 sec to teammates, max 10 layers, each boosts damage by 20%.
+火=Fire
+
+斯露德对敌方异生体造成雷元素过载时，敌方异生体将进入【感电】状态，持续时间10秒。\n感电状态下，受到任意雷元素伤害时，都会从自身发射等量伤害的【闪电链】。闪电链最多电击4个目标，每次弹射伤害递减15%。\n=When Thrud inflicts Thunder Elemental Overload, it enters the [Electro Sense] state for 10 sec. While in Electro Sense, any Thunder Elemental Damage inflicts a [Chain Lightning] of equal damage, Chain up to 4 targets, damage decreased by 15% per additional target.\n
+雷=Thunder
 
 --Weapon Type
+武装类型=Weapon type
+当前斯露德武装类型=Current Weapon
 
-重装型=heavy duty
+重装型=Heavy
+普攻均为元素子弹，可以打出积蓄效果，可以用来触发元素过载。=All of the poke attacks are elemental bullets, which can hit with a buildup effect that can be used to trigger Elemental Overload.
+
+突击型=Assault
+射速较快，连续射击时，会发射元素跟踪弹，造成额外伤害。=Shoots faster and fires elemental tracking rounds for extra damage when fired continuously.
+
+狙击型=Sniper
+射程较远，每次攻击时可以为己方同元素斯露德恢复少量生命。=It has a long range and can restore a small amount of life to your fellow elemental Thrud on each attack.
+
+散射型=Shotgun
+近距离输出时，伤害较高，每射击一定次数可以发射一次元素子弹。=When outputting at close range, it does more damage and can fire an elemental bullet once per a certain number of shots.
