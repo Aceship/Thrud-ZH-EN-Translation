@@ -20,6 +20,7 @@ sr:"剩余时间(?<num2_i>[0-9]+)小时"="Remaining Time : ${num2_i} Hours"
 购买等级=Buy Level
 全部领取=Claim all
 无可领取奖励 = No Available Rewards to Claim
+战令等级提升=Battle Pass Level Up
 
 -- Buy Battle pass 
 大量培养素材=Large amount of training materials

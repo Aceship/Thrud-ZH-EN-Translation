@@ -18,7 +18,7 @@
 元素=Elements
 当前斯露德元素=Current Element
 
-斯露德对敌方异生体造成风元素过载时，敌方异生体将进入【风缠】状态，持续时间10秒。\n进入风缠状态时，会向周围扩散，使附近的敌方也进入风缠状态。风缠状态的目标死亡时，会产生一次8.28%范围伤害（基于风元素最高攻击力的一定百分比）同时产生一个体力球为角色回复15%最大体力。\n=When Thrud inflicts Wind Elemental Overload on an enemy Ectoplasm, the enemy Ectoplasm enters the [Wind Entanglement] state for 10 sec. When entering the Wind Entanglement state, it spreads out to the surrounding area, causing nearby enemies to enter the Wind Entanglement state as well. When a target in the Wind Entanglement state dies, it deals a single 8.28% Ranged Damage (based on a certain percentage of the highest Wind Elemental Attack Power) and generates a Physical Power Orb that restores 15% of the character's Maximum Physical Power.\n
+斯露德对敌方异生体造成风元素过载时，敌方异生体将进入【风缠】状态，持续时间10秒。\n进入风缠状态时，会向周围扩散，使附近的敌方也进入风缠状态。风缠状态的目标死亡时，会产生一次8.28%范围伤害（基于风元素最高攻击力的一定百分比）同时产生一个体力球为角色回复15%最大体力。\n=When Thrud Inflicts Wind Elemental Overload on enemy, Triggers [Wind Entanglement] state for 10 sec to nearby enemies, dealing 8.28% AoE damage on target's death (up to highest atk damage) and creating a Healing Orb that restores up to 15% HP.
 风=Wind
 
 斯露德对敌方异生体造成冰元素过载时，敌方异生体将进入【冻结】状态，持续时间8秒。\n当敌方处于冻结状态时将无法行动或攻击。\n=When Thrud inflicts Ice Elemental Overload, the enemy will enter the [Freeze] state for 8 sec. and will not be able to act or attack while in the Freeze state.\n

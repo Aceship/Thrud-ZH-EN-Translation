@@ -24,6 +24,37 @@ sr:"导师达到(?<num_i>[0-9]+)级解锁"="Unlock on Level ${num_i}"
 当 前 感 知:=Current Perceptions :
 感 知 上 限:=Perception Limits :
 感知：=Perception:
+信赖=Trust
+
+-- Character Status
+详 情=Details
+训 练=Training
+具 现=Manifest
+符 灵=Amulet
+
+-- Training
+攻击=Attack
+生命=Health
+防御=Defense
+元素过载伤害=Overload Dmg
+
+普攻.序曲.极奏等级上限提升=Increase level cap of Attack, Overture, and Ultimate.
+sr:"新技能解锁(?<skill_name>.+)"="New Skill Unlocked·${skill_name}"
+突破=Ascend
+突破强化消耗=Ascension Cost
+
+-- Manifest
+作战技能=Combat Skill
+增幅天赋=Upgrade Talent
+
+射击增幅=Firing Rate Boost
+序曲=Overture Skill
+极奏=Ultimate Skill
+
+技能描述=Skill Description
+详细属性=In-Depth Stats
+潜能觉醒=Unlock Potential
+潜能觉醒消耗=Unlock Cost
 
 -- Time
 sr:"^(?<num_i>[0-9]+)小时"="${num_i} hours"
