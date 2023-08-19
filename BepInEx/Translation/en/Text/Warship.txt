@@ -1,6 +1,6 @@
 激活消耗=Activation Cost
 解锁条件=Unlock conditions
-聚餐=Dining Event
+聚餐=Dinner
 巡视任务=Patrol Missions
 成员近况=Party Status
 舰体修整=Hull Repair

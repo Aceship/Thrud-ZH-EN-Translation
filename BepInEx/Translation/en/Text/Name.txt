@@ -1,12 +1,24 @@
 --uncofirmed name translation
 
-格薇德林=Gwendolyn
-珊多拉=Sandra
-阿莱西娅=Alesia
-娜卡伊=Nakaj
+格薇德林=GwyrDolyn
 瓦希缇=Vashti
-安迪=Andy
+安迪=Anti
 金百莉=Kimberly
+
+维拉=Willa
+耶拉=Yera
+白=White
+归陌=Guimo
+椿=Chun
+剔骨=Boning
+娜卡伊=Nakai
+阿莱西娅=Alethea
+塔维尔=Tawil
+蕾=Ray
+赫尔薇=Hervor
+珊多拉=Xandra
+艾德娜=Edna
+奥利=Ollie
 
 -- Confirmed on website
 法尼娅=Faria
@@ -15,3 +27,5 @@
 奈纳=Nana
 麦当然=McDownroad
 空=Blank
+
+

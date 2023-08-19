@@ -1,7 +1,7 @@
 斯露德=Thrud
 共鸣=Resonance
-战舰=Warship
-联行=Union
+战舰=Frigate
+联行=Operation
 任务=Task
 返回=Back
 前往舷廊=Home
@@ -25,11 +25,13 @@ sr:"导师达到(?<num_i>[0-9]+)级解锁"="Unlock on Level ${num_i}"
 感 知 上 限:=Perception Limits :
 感知：=Perception:
 信赖=Trust
+<color\=#5CDEAB>在线</color>=<color\=#5CDEAB>Online</color>
+已领取=Claimed
 
 -- Character Status
 详 情=Details
 训 练=Training
-具 现=Manifest
+具 现=Skill
 符 灵=Amulet
 
 -- Training
@@ -47,9 +49,10 @@ sr:"新技能解锁(?<skill_name>.+)"="New Skill Unlocked·${skill_name}"
 作战技能=Combat Skill
 增幅天赋=Upgrade Talent
 
-射击增幅=Firing Rate Boost
+射击增幅=Firepower Boost
+射击强化=Firepower Enhancement
 序曲=Overture Skill
-极奏=Ultimate Skill
+极奏=Maestro Skill
 
 技能描述=Skill Description
 详细属性=In-Depth Stats
@@ -57,10 +60,13 @@ sr:"新技能解锁(?<skill_name>.+)"="New Skill Unlocked·${skill_name}"
 潜能觉醒消耗=Unlock Cost
 
 -- Time
-sr:"^(?<num_i>[0-9]+)小时"="${num_i} hours"
-sr:"^(?<num_i>[0-9]+)天"="${num_i} days"
+sr:"(?<num_i>[0-9]+)小时"="${num_i} hours"
+sr:"(?<num_i>[0-9]+)天"="${num_i} days"
 sr:"(?<days_i>[0-9]+)天(?<hours_i>[0-9]+)时"="${days_i}d ${hours_i}h"
 sr:"(?<year>[0-9]+)年(?<month>[0-9]+)月(?<day>[0-9]+)日 (?<hour>[0-9]+):(?<minute>[0-9]+)"="${year}-${month}-${day} ${hour}:${minute}"
+sr:"\((?<hour_i>[0-9]+)小时(?<minutes_i>[0-9]+)分钟\)"="${hour_i} : ${minutes_i}"
+
+sr:"<color\=#5F6565>(?<minutes_i>\d+)分前</color>"="<color\=#5F6565>${minutes_i}m ago</color>"
 
 --Home
 首充=First Top-up
@@ -80,6 +86,26 @@ sr:"意识碎片·(?<name>.+)"="Fragments - ${name}"
 sr:"通关(?<name>.+)后开启"="Unlocked after clearing ${name}"
 提示=Notice
 获得奖励=Reward Received
+
+-- Chat
+聊天=Chat
+私聊=Private chat
+群聊=Group chat
+添加聊天=Add Chat
+发送=Send
+
+-- Friend
+好友=Friend
+黑名单=Blacklist
+
+暂无好友=No friends
+暂无好友申请=No friend request
+黑名单为空=Blacklist is empty
+推荐=Recommendation
+
+添加=Add
+搜索=Search
+组队=Team
 
 -- Stages
 推荐编队=Rec.Formation
