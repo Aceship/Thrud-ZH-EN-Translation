@@ -1,0 +1,13 @@
+-- Quick menu
+公告=News
+签到=Sign In
+成就=Achievements
+图鉴=Hand book
+帮助=Help
+设置=Setting
+退出游戏=Exit Game
+
+
+-- Hand book
+·剧情图鉴·=·Story·
+·怪物图鉴·=·Monster·

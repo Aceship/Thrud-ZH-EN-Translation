@@ -27,12 +27,39 @@ sr:"导师达到(?<num_i>[0-9]+)级解锁"="Unlock on Level ${num_i}"
 信赖=Trust
 <color\=#5CDEAB>在线</color>=<color\=#5CDEAB>Online</color>
 已领取=Claimed
+导师等级不足=Mentor Level Insufficient
+每日任务=Daily Mission
+消耗体力=Use Stamina
+参与限时活动=Limited Time Event
+前往=Go to
+
+sr:"CV: (?<name_i>.+)"="CV: ${name_i}"
 
 -- Character Status
 详 情=Details
 训 练=Training
 具 现=Skill
 符 灵=Amulet
+
+--Details
+战装=Outfit
+档案=Files
+元素：=Element :
+定位：=Class :
+共鸣回顾=                       Resonance Review
+
+基础资料=Data
+姓    名：=Name
+出生地区：=B.place
+所属势力：=Faction
+势力名称：=Name
+所属小队：=Squad
+小队名称：=Name
+
+生    日：=Birthday
+年    龄：=Age
+身    高：=Height
+特长爱好：=Interest
 
 -- Training
 攻击=Attack
@@ -60,11 +87,14 @@ sr:"新技能解锁(?<skill_name>.+)"="New Skill Unlocked·${skill_name}"
 潜能觉醒消耗=Unlock Cost
 
 -- Time
+剩余时间:=Time remaining: 
+剩余时间: =Time remaining: 
 sr:"(?<num_i>[0-9]+)小时"="${num_i} hours"
 sr:"(?<num_i>[0-9]+)天"="${num_i} days"
 sr:"(?<days_i>[0-9]+)天(?<hours_i>[0-9]+)时"="${days_i}d ${hours_i}h"
 sr:"(?<year>[0-9]+)年(?<month>[0-9]+)月(?<day>[0-9]+)日 (?<hour>[0-9]+):(?<minute>[0-9]+)"="${year}-${month}-${day} ${hour}:${minute}"
 sr:"\((?<hour_i>[0-9]+)小时(?<minutes_i>[0-9]+)分钟\)"="${hour_i} : ${minutes_i}"
+sr:"(?<hour_i>[0-9]+)时(?<minute_i>[0-9]+)分"="${hour_i}:${minute_i}" 
 
 sr:"<color\=#5F6565>(?<minutes_i>\d+)分前</color>"="<color\=#5F6565>${minutes_i}m ago</color>"
 
@@ -72,8 +102,9 @@ sr:"<color\=#5F6565>(?<minutes_i>\d+)分前</color>"="<color\=#5F6565>${minutes_
 首充=First Top-up
 
 --Task 
-每日=daily
-每周=weekly  
+每日=Daily
+每周=Weekly
+章节=Chapters
 
 当前有多个已完成任务=Claim All 
 
@@ -86,6 +117,7 @@ sr:"意识碎片·(?<name>.+)"="Fragments - ${name}"
 sr:"通关(?<name>.+)后开启"="Unlocked after clearing ${name}"
 提示=Notice
 获得奖励=Reward Received
+该功能暂未开启，敬请期待=This feature is not yet available, so stay tuned!
 
 -- Chat
 聊天=Chat
@@ -167,12 +199,13 @@ sr:"斯露德血量不低于<color\=#78C1A3>(?<num_i>[0-9/]+)</color>%"="Thrud's
 -- Inspection / patrol
 脉流巡检 = Flow Patrol
 sr:"剩余时间：(?<num1_i>[0-9/]+)天(?<num2_i>[0-9/]+)小时"="Time remaining : ${num1_i} days and ${num2_i} hours"
-sr:"巡检剩余时间：(?<num1_i>[0-9/]+)天 (?<num2_i>[0-9/:]+)"="Time left: ${num1_i} days ${num2_i}"
+sr:"巡检剩余时间：(?<num1_i>[0-9/]+)天 (?<num2_i>[0-9/:]+)"="Remaining left: ${num1_i} days ${num2_i}"
 sr:"(?<num_i>[0-9:]+)后解锁"="Unlock in ${num_i}"
 sr:"(?<num_i>[0-9]+)天后解锁"="Unlock in ${num_i} days"
 暂未解锁=Not unlocked yet
 请通过前置关卡 = Clear prev. stage
 sr:"巡检剩余时间：(?<days_i>[0-9]+)天(?<hours_i>[0-9]+)小时"="Remaining Time: ${days_i}d ${hours_i}h"
+sr:"巡检剩余时间：(?<days_i>[0-9]+)天"="Remaining Time: ${days_i}d"
 
 巡检队伍=Patrol Team
 巡检任务=Patrol\nMissions
@@ -188,7 +221,7 @@ sr:"(?<player>.+) 带队通过该任务"="${player} led the team through the mis
 -- Battlefront
 异空战线=AlterZone
 sr:"剩余时间：(?<days_i>[0-9]+)天"="Remaining Time: ${days_i}d"
-剩余时间: = Remaining Time:
+(战斗期)=(Combat Period)
 
 sr:"第(?<num_i>[0-9]+)波敌人"="Enemy wave ${num_i}"
 sr:"[最高(?<num_i>[0-9]+)]"="Limit ${num_i}"
